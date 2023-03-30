@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: weather-argo-app
+  name: weather-argo-app-production
   namespace: argocd
 spec:
   project: default
