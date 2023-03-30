@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/shiranitz/argo_dev
+    repoURL: https://github.com/shiranitz/argo_production
     targetRevision: HEAD
     path: .
   destination: 
