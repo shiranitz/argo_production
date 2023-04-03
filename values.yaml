@@ -11,4 +11,4 @@ service:
   serviceName: weather-nginx-service
   port: 5000
   targetPort: 5000
-  nodePort: 30101
+  nodePort: 30100
