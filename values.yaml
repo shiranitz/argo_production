@@ -1,7 +1,7 @@
 
 deployment:
   name: weather-app
-  image: shiranitz/weather_app
+  image: tomkatzav/weather
   replicaCount: 3
   containerPort: 5000
 
@@ -11,4 +11,4 @@ service:
   serviceName: weather-nginx-service
   port: 5000
   targetPort: 5000
-  nodePort: 30100
+  nodePort: 30101
